@@ -11,10 +11,8 @@ def initialize(emails) #initializing
 end
 
 
-d  def parse #parse method
+ def parse #parse method
     emails.split.map do |email| #seperates the emails
       email.split(',') #by finding spaces or commas
     end.flatten.uniq #and ensures they are unique
   end
-
-
