@@ -16,4 +16,4 @@ end
       email.split(',') #by finding spaces or commas
     end.flatten.uniq #and ensures they are unique
   end
-end 
+end
